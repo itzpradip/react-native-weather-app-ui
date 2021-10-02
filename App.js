@@ -71,6 +71,10 @@ const App = () => {
             bgImg = require('./assets/cloudy.jpeg');
           } else if (location.weatherType == 'Rainy') {
             bgImg = require('./assets/rainy.jpg');
+          } else if (location.weatherType == 'Spring'){
+            bgImg = require('./assets/spring.png');
+          } else if (location.weatherType == 'Winter'){
+            bgImg = require('./assets/cold.png');
           }
 
           return (
